@@ -38,7 +38,6 @@ export function SideBar() {
       </span>
 
       <div className="flex flex-col gap-8">
-        /* Mostrar as aulas colocando como do tipo aula */
         {data?.lessons.map(lesson =>{
           return(
             <Leasson
